@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: keh-system
+  description: "System owner for KEH resources."
+  tags:
+    - keh
   annotations:
     github.com/project-slug: ONS-Innovation/keh-system
 spec:
-  type: other
-  lifecycle: unknown
   owner: keh-dev
